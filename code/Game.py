@@ -15,7 +15,7 @@ class Game:
     def __init__(self):
         pygame.init()
         self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))
-        pygame.display.set_caption("Jogo Fundo do Mar")
+        pygame.display.set_caption("Aventura Submarina")
 
     def run(self) -> Any:
         while True:
