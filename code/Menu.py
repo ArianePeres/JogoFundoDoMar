@@ -13,7 +13,7 @@ from code.Const import COLOR_SALMON, COLOR_PINK
 class Menu:
     def __init__(self, window):
         self.window = window
-        self.surf = pygame.image.load('./asset/orig.png').convert_alpha()
+        self.surf = pygame.image.load('./asset/MenuBg.png').convert_alpha()
         self.rect = self.surf.get_rect(left=0, top=0)
 
     def run(self):

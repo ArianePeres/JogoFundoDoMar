@@ -12,7 +12,7 @@ from code.DBProxy import DBProxy
 class Score:
     def __init__(self, window: Surface):
         self.window = window
-        self.surf = pygame.image.load('./asset/orig.png').convert_alpha()
+        self.surf = pygame.image.load('./asset/Level1Bg0.png').convert_alpha()
         self.rect = self.surf.get_rect(left=0, top=0)
         pass
 
