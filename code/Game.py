@@ -11,11 +11,12 @@ from code.Menu import Menu
 from code.Score import Score
 
 
+
 class Game:
     def __init__(self):
         pygame.init()
         self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))
-        pygame.display.set_caption("Aventura Submarina")
+        pygame.display.set_caption("AVENTURA SUBMARINA :)")
 
     def run(self) -> Any:
         while True:

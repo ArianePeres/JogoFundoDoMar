@@ -23,8 +23,8 @@ class Menu:
         while True:
             # DRAW IMAGES
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(50, "Aventura", COLOR_PINK, ((WIN_WIDTH / 2), 70))
-            self.menu_text(50, "Subamrina", COLOR_PINK, ((WIN_WIDTH / 2), 120))
+            self.menu_text(50, "AVENTURA", COLOR_PINK, ((WIN_WIDTH / 2), 70))
+            self.menu_text(50, "SUBMARINA", COLOR_PINK, ((WIN_WIDTH / 2), 120))
 
             for i in range(len(MENU_OPTION)):
                 if i == menu_option:
